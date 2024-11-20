@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room Temperature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .data {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Room Temperature Monitor</h1>
+    <div class="data">
+        <p id="temperature">Temperature: Loading...</p>
+    </div>
+    <script>
+        // Fetch the temperature from the ESP32
+        async function fetchTemperature() {
+            try {
+                const response = await fetch('<YOUR_JSON_FILE_URL>.json');
+                const data = await response.json();
+                document.getElementById("temperature").innerText = `Temperature: ${data.temperature} °C`;
+            } catch (error) {
+                document.getElementById("temperature").innerText = 'Error fetching temperature';
+            }
+        }
+        setInterval(fetchTemperature, 60000); // Update every minute
+        fetchTemperature();
+    </script>
+</body>
+</html>
