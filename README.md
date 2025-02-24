@@ -145,10 +145,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ✉️ Contact
 
-Gabriel H. - [@Gabrielhj17](https://github.com/Gabrielhj17)
+Gabriel H-J - [@Gabrielhj17](https://github.com/Gabrielhj17)
 
 Project Link: [https://github.com/Gabrielhj17/ESP32-Temperature-Monitor](https://github.com/Gabrielhj17/ESP32-Temperature-Monitor)
-
----
-
-**Note**: This README template should be customized with the specific details of your implementation, including accurate wiring diagrams, screenshots of your web interface, and any additional features specific to your project.
