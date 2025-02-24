@@ -2,8 +2,6 @@
 
 A real-time temperature monitoring system built with ESP32, featuring web-based dashboard, alerts, and data logging capabilities.
 
-![ESP32 Temperature Monitor](https://via.placeholder.com/800x400?text=ESP32+Temperature+Monitor)
-
 ## 📋 Overview
 
 This project transforms an ESP32 microcontroller into a versatile temperature monitoring solution. It can be used for home automation, greenhouse monitoring, server room temperature tracking, or any application requiring reliable temperature sensing with remote access.
